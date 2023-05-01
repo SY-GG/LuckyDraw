@@ -19,3 +19,12 @@ doc = gc.open_by_url(spreadsheet_url)
 
 # 시트 선택하기
 worksheet = doc.worksheet('lucky')
+
+# 행운 봇 중 뽑기
+def LuckyDraw():
+    luckyContent = worksheet.col_values(2)
+    result = random.choice(luckyContent)
+    return result
+
+print('랜덤뽑기 중 . . . ')
+print(LuckyDraw())
