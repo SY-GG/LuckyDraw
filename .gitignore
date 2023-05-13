@@ -196,3 +196,6 @@ pyrightconfig.json
 
 # auth config file
 google_auth.json
+
+Scripts
+pyvenv.cfg
