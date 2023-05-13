@@ -1,0 +1,19 @@
+{
+  "name": "luckydraw",
+  "version": "1.0.0",
+  "description": "1. Command PromptShell 켜기\r 2. 다음으로 활성화\r ```\r lucky\\Scripts\\activate.bat\r ```\r 3. `pip list`로 확인",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SY-GG/LuckyDraw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SY-GG/LuckyDraw/issues"
+  },
+  "homepage": "https://github.com/SY-GG/LuckyDraw#readme"
+}
